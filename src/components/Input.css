@@ -24,7 +24,7 @@
     border: 1px solid #FF5466;
 }
 
-.errorText{
+.errorTextDisplay{
     font-size: 10px; 
     font-weight: 400; 
     line-height: 18px; 
@@ -33,6 +33,10 @@
     color: #FF5466; 
     text-align: center; 
     margin-top: 2px; 
+}
+
+.errorTextHidden{
+    display: none; 
 }
 
 /*  desktop style  */
@@ -49,7 +53,7 @@
         font-size: 16px; 
         line-height: 20px; 
     }
-    .errorText {
+    .errorTextDisplay {
         position: absolute; 
         font-size: 12px; 
         font-weight: 500; 
