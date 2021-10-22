@@ -3,7 +3,7 @@ import './SubmitButton.css';
 
 function SubmitButton(props){
     return (
-        <button className="SubmitButton" ></button>
+        <button className="SubmitButton" >Notify Me</button>
     )
 }
 
