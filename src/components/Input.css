@@ -1,0 +1,59 @@
+.Input{
+    width: 100%; 
+}
+.inputEmail {
+    height: 40px; 
+    width: 100%; 
+    border: 1px solid #C2D3FF;    
+    border-radius: 30px; 
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.0001);
+    padding: 0 32px; 
+
+}
+
+.inputEmail::placeholder{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px; 
+    color: #B8C7ED;
+}
+
+.inputEmailError{
+    border: 1px solid #FF5466;
+}
+
+.errorText{
+    font-size: 10px; 
+    font-weight: 400; 
+    line-height: 18px; 
+    letter-spacing: 0.12px; 
+    font-style: italic; 
+    color: #FF5466; 
+    text-align: center; 
+    margin-top: 2px; 
+}
+
+/*  desktop style  */
+@media screen and (min-width: 1440px){
+    .Input {
+        width: 420px; 
+        height: 100%; 
+    }
+    .inputEmail{
+        width: 420px; 
+        height: 56px; 
+    }
+    .inputEmail::placeholder{
+        font-size: 16px; 
+        line-height: 20px; 
+    }
+    .errorText {
+        position: absolute; 
+        font-size: 12px; 
+        font-weight: 500; 
+        left: 20px; 
+        bottom: -25px; 
+    }
+}

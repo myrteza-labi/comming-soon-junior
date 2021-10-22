@@ -1,0 +1,14 @@
+.SoonApp {
+    width: 375px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #fff;
+}
+
+/*  desktop style  */
+@media screen and (min-width: 1440px){
+    .SoonApp {
+        width: 1440px; 
+    }
+}

@@ -1,0 +1,40 @@
+.TextPresentation {
+    margin-top: 32px; 
+}
+.textPresentationTitle {
+    font-size: 22px; 
+    font-weight: 300; 
+    line-height: 32px; 
+    text-align: center; 
+    color: #969696;
+}
+.titleImportantWord {
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    color: #15202A;
+}
+
+.textPresentationParagraph {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #15202A;
+    margin-top: 15px; 
+}
+
+/*  desktop style  */
+@media screen and (min-width: 1440px){
+    .TextPresentation {
+        margin-top: 40px; 
+    }
+    .textPresentationTitle {
+        font-size: 48px; 
+        line-height: 60px; 
+    }
+    .textPresentationParagraph{
+        font-size: 22px; 
+        line-height: 24px; 
+    }
+}
